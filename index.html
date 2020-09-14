@@ -4,9 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/css/uikit.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit-icons.min.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <h1>HHello there</h1>
+    <nav class="uk-navbar-container" uk-navbar="boundary-align: true; align: center;">
+        <div class="uk-navbar-left">
+            <a href="" class="uk-navbar-item uk-logo">
+                Values Advisor
+            </a>
+        </div>
+        <div class="uk-navbar-right">
+            <a href="#" class="uk-navbar-toggle" uk-navbar-toggle-icon ></a>
+        </div>
+    </nav>
+    <div class="subnav-container">
+        <div class="uk-container">
+            <span class="uk-text-lead">Financial Advisors</span>
+            <br>
+            <span class="uk-text-meta">
+                Find a professional who manages your investments in accordance with your values.
+            </span>
+        </div>
+        <hr class="divider">
+        <div class="uk-flex">
+            <div class="uk-container uk-column-1-2 uk-column-divider uk-align-center filter-box">
+                <p>FILTERS</p>
+                <P>SORT BY</P>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
