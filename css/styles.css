@@ -10,6 +10,22 @@
     margin: 0px;
 }
 
+.card-text {
+    margin: 0.2em;
+}
+
+.card-divider {
+    margin: 10px 0 10px 0;
+}
+
+.card-text-compare {
+    align-content: center;
+}
+
+.uk-padding-small {
+    padding: 10px!important; 
+}
+
 .subnav-container {
     box-shadow: 10px 0 10px #A6A4A473;
 }
